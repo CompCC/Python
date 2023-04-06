@@ -15,7 +15,6 @@
 
 def print_operation_table(operation, num_rows, num_columns):
     for j in range(1, num_columns+1):
-        res = []
         for i in range(1, num_rows+1):
             print(operation(i, j), end ="\t")
         print("")
